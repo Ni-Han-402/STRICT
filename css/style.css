@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header part start */
+
+header{
+    background-color: #f6f9f9;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #2d3950;
+    font-weight: 700;
+}
+.navbar{
+    padding: 20px 0;
+}
+
+/* Header part end */
+
+/* Banner part start */
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.hg{
+    height: 700px;
+   
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: #fff;
+    font-size: 75px;
+}
+.content p{
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.content span{
+    display: inline-block;
+    background: #15a4fa;
+    height: 3px;
+    width: 100%;
+}
+.btn-custom{
+    background: transparent;
+    border: 1px solid #15a4fa;
+}
+.btn-custom:hover{
+    background: #15a4fa;
+}
+.icon{
+    color: #fff;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    animation:icon-ani 1s linear infinite;
+    animation-direction: alternate;
+}
+.icon i{
+    color: #fff;
+    font-size: 24px;
+}
+@keyframes icon-ani{
+    0%{
+        transform: translate(-50%, 0%);
+    }
+    100%{
+        transform: translate(-50%, -100%);
+    }
+}
+
+/* Banner part end */
+
+/* Simple part start */
+
+.simple h1{
+    color: #2d3950;
+    font-weight: 400;
+    font-size: 40px;
+}
+.simple p{
+    color: #999999;
+    font-size: 18px;
+}
+.simple{
+    background-color: #f6f9f9;
+}
+
+/* Simple part end */
